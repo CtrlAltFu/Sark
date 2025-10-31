@@ -35,7 +35,7 @@ pip install fastmcp
 
 2. Run the server (binds to localhost by default):
 ```bash
-HOST=127.0.0.1 PORT=8765 python3 sark.py
+python3 sark.py HOST=127.0.0.1 PORT=8765
 ```
 
 You should see:
