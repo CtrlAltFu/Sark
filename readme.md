@@ -28,14 +28,14 @@ pip install fastmcp
 ```bash
 # default Kali pip repository doesn't include fastmcp
 python -m venv .venv
-pip install fastmcp
+.venv/bin/pip3 install fastmcp
 # install system packages as required (nmap, gobuster, ...), e.g. apt on Debian/Ubuntu:
 # sudo apt install nmap gobuster nikto sqlmap hydra john wpscan enum4linux
 ```
 
 2. Run the server (binds to localhost by default):
 ```bash
-python3 sark.py HOST=127.0.0.1 PORT=8765
+.venv/bin/python sark.py HOST=127.0.0.1 PORT=8765
 ```
 
 You should see:
